@@ -19,6 +19,12 @@ If you have access to the '''curl''' command, you could issue a command such as:
 
     curl http://check.sidnlabs.nl:8080/check/internetsociety.org
 
+The results in either case (web browser or curl) look like:
+
+    internetsociety.org,"",secure,""
+
+where the third filed is either '''secure''', '''insecure''' or '''bogus''' (failed validation).
+
 The programs found in this repository are simple examples of how you could use the
 interface.  They were written purely because I wanted to experiment with the API
 from SIDN Labs and thought I would share my examples.
