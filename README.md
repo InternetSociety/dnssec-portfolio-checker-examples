@@ -25,8 +25,12 @@ interface.
 More examples are welcome if you would like to contribute additional ways to use it
 or code in other languages.
 
+These examples are licensed under a permissive MIT-style license. Feel free to use
+them in any way you wish. (See the LICENSE file for the full text.)
+
 The "Portfolio Checker" itself is a program written in GO and available from SIDN Labs at:
 
     https://github.com/SIDN/unboundcheck
 
 Have fun!
+
