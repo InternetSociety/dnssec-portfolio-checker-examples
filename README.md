@@ -9,7 +9,7 @@ A web interface where you can upload a CSV file of domain names is available at:
 That page also contains the list of status messages and also information about the
 REST interface.  To use the REST interface, you simply query:
 
-    http://check.sidnlabs.nl:8080/check/_domainname_
+    http://check.sidnlabs.nl:8080/check/<domainname>
 
 as in:
 
@@ -17,7 +17,7 @@ as in:
 
 If you have access to the '''curl''' command, you could issue a command such as:
 
-    '''curl http://check.sidnlabs.nl:8080/check/internetsociety.org'''
+    curl http://check.sidnlabs.nl:8080/check/internetsociety.org
 
 The programs found in this repository are simple examples of how you could use the
 interface.  They were written purely because I wanted to experiment with the API
@@ -31,7 +31,7 @@ them in any way you wish. (See the LICENSE file for the full text.)
 
 The "Portfolio Checker" itself is a program written in GO and available from SIDN Labs at:
 
-    https://github.com/SIDN/unboundcheck
+  https://github.com/SIDN/unboundcheck
 
 Thanks to SIDN Labs for making this service available for free to the public.
 
