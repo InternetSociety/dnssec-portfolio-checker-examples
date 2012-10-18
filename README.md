@@ -4,7 +4,7 @@ you easily check the DNSSEC status of a large number of domains.
 
 A web interface where you can upload a CSV file of domain names is available at:
 
-    http://check.sidnlabs.nl:8080/form
+http://check.sidnlabs.nl:8080/form
 
 That page also contains the list of status messages and also information about the
 REST interface.  To use the REST interface, you simply query:
@@ -31,7 +31,7 @@ them in any way you wish. (See the LICENSE file for the full text.)
 
 The "Portfolio Checker" itself is a program written in GO and available from SIDN Labs at:
 
-  https://github.com/SIDN/unboundcheck
+https://github.com/SIDN/unboundcheck
 
 Thanks to SIDN Labs for making this service available for free to the public.
 
