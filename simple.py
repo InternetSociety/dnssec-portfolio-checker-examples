@@ -10,7 +10,7 @@ portfolio = ['internetsociety.org','ietf.org','sidnlabs.nl','google.com','dnssec
 
 for domain in portfolio:
     status = urllib2.urlopen('http://check.sidnlabs.nl:8080/check/%s' % domain).read().split(',')[2]
-    print "%s - %s" % (domain, status)
+    print "%s - %s" % (status, domain)
 
 #
 # Regarding what is going on in the first line of the for loop, the result sent back from

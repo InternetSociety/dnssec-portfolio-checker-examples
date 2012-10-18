@@ -20,7 +20,7 @@ if len(sys.argv) > 1:
         if results[1] == 'nodata':
             print "%s - domain not found" % (domain)
         else:
-            print "%s - %s" % (domain, results[2])
+            print "%s - %s" % (results[2], domain)
             
 else:
     print "Usage: dnssec-check.py <domain> <domain> <domain>\n(for as many domains as you wish to check)"
