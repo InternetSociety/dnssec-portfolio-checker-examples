@@ -20,7 +20,8 @@ If you have access to the '''curl''' command, you could issue a command such as:
     '''curl http://check.sidnlabs.nl:8080/check/internetsociety.org'''
 
 The programs found in this repository are simple examples of how you could use the
-interface.
+interface.  They were written purely because I wanted to experiment with the API
+from SIDN Labs and thought I would share my examples.
 
 More examples are welcome if you would like to contribute additional ways to use it
 or code in other languages.
@@ -32,5 +33,9 @@ The "Portfolio Checker" itself is a program written in GO and available from SID
 
     https://github.com/SIDN/unboundcheck
 
+Thanks to SIDN Labs for making this service available for free to the public.
+
 Have fun!
+
+- Dan York, Internet Society, york@isoc.org
 
