@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #
-# A simple example of using the SIDN Labs DNSSEC Portfolio Checker at http://check.sidnlabs.nl:8080/form
+# A simple example of using the SIDN Labs DNSSEC Portfolio Checker at http://portfolio.sidnlabs.nl:8080/form
 # via the REST API
 #
 
@@ -9,7 +9,7 @@ import urllib2
 portfolio = ['internetsociety.org','ietf.org','sidnlabs.nl','google.com','dnssec-failed.org']
 
 for domain in portfolio:
-    status = urllib2.urlopen('http://check.sidnlabs.nl:8080/check/%s' % domain).read().split(',')[2]
+    status = urllib2.urlopen('http://portfolio.sidnlabs.nl:8080/check/%s' % domain).read().split(',')[2]
     print "%s - %s" % (status, domain)
 
 #

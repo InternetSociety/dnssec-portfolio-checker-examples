@@ -4,20 +4,20 @@ you easily check the DNSSEC status of a large number of domains.
 
 A web interface where you can upload a CSV file of domain names is available at:
 
-http://check.sidnlabs.nl:8080/form
+http://portfolio.sidnlabs.nl:8080/form
 
 That page also contains the list of status messages and also information about the
 REST interface.  To use the REST interface, you simply query:
 
-    http://check.sidnlabs.nl:8080/check/<domainname>
+    http://portfolio.sidnlabs.nl:8080/check/<domainname>
 
 as in:
 
-    http://check.sidnlabs.nl:8080/check/internetsociety.org
+    http://portfolio.sidnlabs.nl:8080/check/internetsociety.org
 
 If you have access to the '''curl''' command, you could issue a command such as:
 
-    curl http://check.sidnlabs.nl:8080/check/internetsociety.org
+    curl http://portfolio.sidnlabs.nl:8080/check/internetsociety.org
 
 The results in either case (web browser or curl) look like:
 
