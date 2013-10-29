@@ -6,7 +6,7 @@
 
 import urllib2
 
-portfolio = ['internetsociety.org','ietf.org','sidnlabs.nl','google.com','dnssec-failed.org']
+portfolio = ['internetsociety.org','ietf.org','sidnlabs.nl','google.com','www.dnssec-failed.org']
 
 for domain in portfolio:
     status = urllib2.urlopen('http://portfolio.sidnlabs.nl:8080/check/%s' % domain).read().split(',')[2]
